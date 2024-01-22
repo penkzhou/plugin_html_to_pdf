@@ -76,7 +76,7 @@ class _MyAppState extends State<MyApp> {
         </style>
       </head>
       <body>
-        <h2>PDF Generated with flutter_html_to_pdf plugin</h2>
+        <h2>PDF Generated with html_to_pdf plugin</h2>
         
         <table style="width:100%">
           <caption>Sample HTML Table</caption>
@@ -110,7 +110,7 @@ class _MyAppState extends State<MyApp> {
         targetDirectory: targetPath,
         targetName: targetFileName,
         printSize: PrintSize.A4,
-        printOrientation: PrintOrientation.Portrait,
+        printOrientation: PrintOrientation.Landscape,
       ),
     );
 
