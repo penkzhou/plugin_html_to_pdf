@@ -11,7 +11,7 @@ export 'package:html_to_pdf/print_configuration_enums.dart';
 
 /// HTML to PDF Converter
 class HtmlToPdf {
-  static const MethodChannel _channel = const MethodChannel('html_to_pdf');
+  static const MethodChannel _channel = MethodChannel('html_to_pdf');
 
   /// Creates PDF Document from HTML content
   /// Can throw a [PlatformException] or (unlikely) a [MissingPluginException] converting html to pdf
