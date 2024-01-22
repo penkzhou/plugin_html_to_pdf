@@ -1,3 +1,7 @@
+## 0.7.2
+
+* fix html_to_pdf ios build error.
+
 ## 0.7.1
 
 * republish the library as html_to_pdf
