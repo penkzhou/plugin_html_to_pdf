@@ -1,3 +1,7 @@
+## 0.7.3
+
+* fix html_to_pdf android example build error.
+
 ## 0.7.2
 
 * fix html_to_pdf ios build error.
