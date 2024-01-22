@@ -1,4 +1,4 @@
-import 'package:flutter_html_to_pdf/print_configuration_enums.dart';
+import 'package:html_to_pdf/print_configuration_enums.dart';
 
 class PrintPdfConfiguration {
   final String targetDirectory;

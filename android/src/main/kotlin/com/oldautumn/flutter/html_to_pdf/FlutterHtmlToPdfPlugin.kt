@@ -1,4 +1,4 @@
-package com.afur.flutter_html_to_pdf
+package com.oldautumn.flutter.html_to_pdf
 
 import android.content.Context
 import androidx.annotation.NonNull
@@ -15,7 +15,7 @@ class FlutterHtmlToPdfPlugin: FlutterPlugin, MethodCallHandler {
   private lateinit var applicationContext: Context
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "flutter_html_to_pdf")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "html_to_pdf")
     channel.setMethodCallHandler(this)
 
     applicationContext = flutterPluginBinding.applicationContext

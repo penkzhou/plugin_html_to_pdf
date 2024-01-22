@@ -1,10 +1,9 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.afur.flutter_html_to_pdf_example">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
    <application
-        android:label="flutter_html_to_pdf_example"
+        android:label="Html to pdf example"
         android:icon="@mipmap/ic_launcher">
         <activity
-            android:name=".MainActivity"
+            android:name="com.oldautumn.flutter.html_to_pdf.example.MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"

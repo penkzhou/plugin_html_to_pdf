@@ -1,4 +1,4 @@
-package com.afur.flutter_html_to_pdf_example
+package com.oldautumn.flutter.html_to_pdf.example
 
 import io.flutter.embedding.android.FlutterActivity
 

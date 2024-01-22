@@ -1,3 +1,7 @@
+## 0.7.1
+
+* republish the library as html_to_pdf
+
 ## 0.7.0
 
 * Android: Support V2 embedding (Thanks [nikitadol](https://github.com/nikitadol))

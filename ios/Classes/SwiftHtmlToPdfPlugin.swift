@@ -2,13 +2,13 @@ import Flutter
 import UIKit
 import WebKit
 
-public class SwiftFlutterHtmlToPdfPlugin: NSObject, FlutterPlugin{
+public class SwiftHtmlToPdfPlugin: NSObject, FlutterPlugin{
     var wkWebView : WKWebView!
     var urlObservation: NSKeyValueObservation?
     
     public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "flutter_html_to_pdf", binaryMessenger: registrar.messenger())
-    let instance = SwiftFlutterHtmlToPdfPlugin()
+    let channel = FlutterMethodChannel(name: "html_to_pdf", binaryMessenger: registrar.messenger())
+    let instance = SwiftHtmlToPdfPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
     

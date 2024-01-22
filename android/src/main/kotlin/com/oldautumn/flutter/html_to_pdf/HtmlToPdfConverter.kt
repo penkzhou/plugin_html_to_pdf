@@ -1,4 +1,4 @@
-package com.afur.flutter_html_to_pdf
+package com.oldautumn.flutter.html_to_pdf
 
 import android.annotation.SuppressLint
 import android.content.Context
