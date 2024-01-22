@@ -10,7 +10,7 @@ export 'package:html_to_pdf/pdf_print_configuration.dart';
 export 'package:html_to_pdf/print_configuration_enums.dart';
 
 /// HTML to PDF Converter
-class FlutterHtmlToPdf {
+class HtmlToPdf {
   static const MethodChannel _channel = const MethodChannel('html_to_pdf');
 
   /// Creates PDF Document from HTML content
