@@ -9,8 +9,8 @@ import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 
-/** FlutterHtmlToPdfPlugin */
-class FlutterHtmlToPdfPlugin: FlutterPlugin, MethodCallHandler {
+/** HtmlToPdfPlugin */
+class HtmlToPdfPlugin: FlutterPlugin, MethodCallHandler {
   private lateinit var channel : MethodChannel
   private lateinit var applicationContext: Context
 

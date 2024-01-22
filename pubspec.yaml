@@ -26,7 +26,7 @@ flutter:
         package: com.oldautumn.flutter.html_to_pdf
         pluginClass: HtmlToPdfPlugin
       ios:
-        pluginClass: FlutterHtmlToPdfPlugin
+        pluginClass: HtmlToPdfPlugin
 
 
   # To add assets to your plugin package, add an assets section, like this:
