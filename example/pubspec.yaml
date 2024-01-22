@@ -1,5 +1,5 @@
-name: flutter_html_to_pdf_example
-description: Demonstrates how to use the flutter_html_to_pdf plugin.
+name: html_to_pdf_example
+description: Demonstrates how to use the html_to_pdf plugin.
 publish_to: 'none'
 
 environment:
