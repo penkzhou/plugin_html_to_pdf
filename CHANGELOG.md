@@ -1,3 +1,7 @@
+## 0.7.4
+
+* add test and github action.
+
 ## 0.7.3
 
 * fix html_to_pdf android example build error.

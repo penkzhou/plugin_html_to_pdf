@@ -24,7 +24,7 @@ var htmlContent =
   </style>
 </head>
   <body>
-    <h2>PDF Generated with flutter_html_to_pdf plugin</h2>
+    <h2>PDF Generated with html_to_pdf plugin</h2>
     <table style="width:100%">
       <caption>Sample HTML Table</caption>
       <tr>
@@ -49,7 +49,7 @@ var htmlContent =
 var targetPath = "/your/sample/path";
 var targetFileName = "example_pdf_file"
 
-final generatedPdfFile = await FlutterHtmlToPdf.convertFromHtmlContent(
+final generatedPdfFile = await HtmlToPdf.convertFromHtmlContent(
   htmlContent: htmlContent,
   printPdfConfiguration: PrintPdfConfiguration(
     targetDirectory: targetPath,
@@ -65,14 +65,14 @@ Code above simply generates **PDF** file from **HTML** content. It should work w
 You can also pass ***File*** object with **HTML** content inside as parameter
 ```dart
 var file = File("/sample_path/example.html");
-var generatedPdfFile = await FlutterHtmlToPdf.convertFromHtmlFile(
+var generatedPdfFile = await HtmlToPdf.convertFromHtmlFile(
     file, targetPath, targetFileName);
 ```
 
 or even just path to this file
 ```dart
 var filePath = "/sample_path/example.html";
-var generatedPdfFile = await FlutterHtmlToPdf.convertFromHtmlFilePath(
+var generatedPdfFile = await HtmlToPdf.convertFromHtmlFilePath(
     filePath, targetPath, targetFileName);
 ```
 
