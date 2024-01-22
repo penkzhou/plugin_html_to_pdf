@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:html_to_pdf/html_to_pdf.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:pdf_viewer_plugin/pdf_viewer_plugin.dart';
+import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
 void main() {
   runApp(
@@ -41,7 +41,7 @@ class _MyAppState extends State<MyApp> {
       children: [
         Expanded(
           child: generatedPdfFilePath != null
-              ? PdfView(path: generatedPdfFilePath!)
+              ? SfPdfViewer.file(File(generatedPdfFilePath!))
               : SizedBox(),
         ),
         buildButton(),

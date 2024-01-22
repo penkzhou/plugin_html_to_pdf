@@ -9,7 +9,7 @@ dependencies:
   flutter:
     sdk: flutter
   path_provider: ^2.1.0
-  pdf_viewer_plugin: ^2.0.1
+  syncfusion_flutter_pdfviewer: ^24.1.46
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
