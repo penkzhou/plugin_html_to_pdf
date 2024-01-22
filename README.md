@@ -1,4 +1,4 @@
-# flutter_html_to_pdf
+# html_to_pdf
 
 [![pub package](https://img.shields.io/pub/v/flutter_html_to_pdf.svg)](https://pub.dartlang.org/packages/flutter_html_to_pdf)
 
