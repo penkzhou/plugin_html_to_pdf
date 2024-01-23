@@ -1,3 +1,7 @@
+## 0.7.8
+
+* test Automated publishing.
+
 ## 0.7.7
 
 * enable Automated publishing.
