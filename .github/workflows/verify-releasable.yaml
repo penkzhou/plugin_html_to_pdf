@@ -1,7 +1,7 @@
 name: Verify that the packages are releasable.
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
 
 jobs:
