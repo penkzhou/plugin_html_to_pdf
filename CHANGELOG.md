@@ -1,3 +1,7 @@
+## 0.7.9
+
+* test Automated publishing again.
+
 ## 0.7.8
 
 * test Automated publishing.
