@@ -1,3 +1,7 @@
+## 0.7.7
+
+* enable Automated publishing.
+
 ## 0.7.6
 
 * Specific Android support minSdkVersion to 19.
