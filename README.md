@@ -6,8 +6,11 @@ Flutter plugin for generating PDF files from HTML
 
 ### Platform Version Support
 
-Android: minSdkVersion `19` or `Android KitKat`
-iOS: minSdkVersion `12.0`
+#### Android
+`19` or `Android KitKat`
+
+#### iOS
+`12.0`
 
 ### Usage
 
