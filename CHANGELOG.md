@@ -1,3 +1,7 @@
+## 0.7.6
+
+* Specific Android support minSdkVersion to 19.
+
 ## 0.7.5
 
 * transfter to a new repo for making issues or prs more convenient.
