@@ -26,6 +26,12 @@ public class SwiftHtmlToPdfPlugin: NSObject, FlutterPlugin{
         wkWebView.isHidden = true
         wkWebView.tag = 100
         viewControler?.view.addSubview(wkWebView)
+
+        // the `position: fixed` element not working as expected
+        let contentController = wkWebView.configuration.userContentController
+        contentController.addUserScript(WKUserScript(source: "document.documentElement.style.webkitUserSelect='none';", injectionTime: .atDocumentEnd, forMainFrameOnly: true))
+        contentController.addUserScript(WKUserScript(source: "document.documentElement.style.webkitTouchCallout='none';", injectionTime: .atDocumentEnd, forMainFrameOnly: true))
+        wkWebView.scrollView.bounces = false
         
         let htmlFileContent = FileHelper.getContent(from: htmlFilePath!) // get html content from file
         wkWebView.loadHTMLString(htmlFileContent, baseURL: Bundle.main.bundleURL) // load html into hidden webview
