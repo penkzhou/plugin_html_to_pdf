@@ -1,3 +1,7 @@
+## 0.8.0
+
+* fix the `position: fixed` element not working as expected.
+
 ## 0.7.9
 
 * test Automated publishing again.
